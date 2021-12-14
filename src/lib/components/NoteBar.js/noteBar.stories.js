@@ -36,4 +36,5 @@ NoteBar.args = {
   type: "warning",
   size: "large",
   children: <p>NoteBar</p>,
+  color: undefined,
 };

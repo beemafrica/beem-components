@@ -23,10 +23,7 @@ import {
   BmChatbotIcon,
   BmEmojiIcon,
   BmQuickReplyIcon,
-  BmChatbot,
   BmSupport,
-  BmArrowCircleDown,
-  BmArrowCircleUp,
   CopyToClipBoard,
 } from "./iconStyles";
 import { BmNoteBar } from "./NoteBar.js/noteBar";
@@ -59,9 +56,6 @@ export {
   BmChatbotIcon,
   BmEmojiIcon,
   BmQuickReplyIcon,
-  BmChatbot,
   BmSupport,
-  BmArrowCircleDown,
-  BmArrowCircleUp,
   CopyToClipBoard,
 };
