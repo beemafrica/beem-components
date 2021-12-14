@@ -1,0 +1,14 @@
+<link rel="shortcut icon" href="./favicon.ico">
+<link rel="icon" href="./favicon.ico" sizes="192x192">
+
+<script>
+    var observer = new MutationObserver(function(mutations) {
+        if (document.title.match(/Storybook$/)) {
+            document.title = "Beem Components";
+        }
+    }).observe(document.querySelector("title"), {
+        childList: true,
+        subtree: true,
+        characterData: true
+    });
+</script>
